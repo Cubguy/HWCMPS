@@ -1,0 +1,82 @@
+body {
+    background-color: #3e5465;
+}
+.ogheader {
+    background-color: #00aeef;
+    position: absolute;
+    top: 0px;
+    width: 60%;
+    height: 100px;
+}
+.headertxt {
+    font-size: 75px;
+}
+.divcenter {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+}
+.hidden {
+    visibility: hidden;
+}
+.left {
+    background-color: #4d6475;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.right {
+    background-color: #5d704f;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.marginatedpadded {
+    padding: 10px 10px 10px 10px;
+}
+.vl {
+    border-left: 6px solid rgb(1, 17, 51);
+    height: 121px;
+    top: 0;
+    border-radius: 1px;   
+}
+.topheader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+}
+.popin {
+    padding-top: 20%;
+    padding-left: 15px;
+
+}
+.paragraphtext {
+    padding-left: 15px;
+    font-size: 20px;
+}
+@font-face {
+    font-family: 'mojangles';
+    src: url('mojangles.ttf');
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    font-family: mojangles;
+    vertical-align:baseline
+} 
+.openinglink {
+    color: #05e76b;
+    font-size: 23px;
+    padding-left: 15px;
+    font-style:normal;
+}
+.cub {
+    background-color: #4d6475;
+}
